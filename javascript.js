@@ -3,11 +3,10 @@ function getCompChoice(max) {
 }
 
 function getPlayerChoice() {
-    let choice = prompt("What is your choice? ");
+    let choice = prompt("What is your choice?");
     return choice;
 }
 
+const compSelection = getCompChoice();
+const playerSelection = getPlayerChoice();
 
-
-console.log(getCompChoice(3))
-console.log(getPlayerChoice())
